@@ -1,6 +1,7 @@
 //import logo from './logo.svg';
 import "./App.css";
-import TodoList from "./components/TodoList";
+import Weather from "./components/Weather";
+//import TodoList from "./components/TodoList";
 //import React, { useState } from "react";
 //import LoginForm from "./components/LoginForm";
 //import DeleteShow from "./components/DeleteShow";
@@ -13,7 +14,8 @@ function App() {
     <div className="App">
       {/* <DeleteShow /> */}
       {/* <GalaryImages /> */}
-      <TodoList />
+      {/* <TodoList /> */}
+      <Weather />
     </div>
   );
 }
